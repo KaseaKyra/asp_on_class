@@ -22,7 +22,7 @@
             </p>
             <p>
                 <asp:ValidationSummary ID="ValidationSummary1" runat="server" HeaderText="Danh sach loi" />
-                <asp:Label ID="lblError" runat="server" Text="Label" ForeColor="Red" Font-Bold="true"></asp:Label>
+                <asp:Label ID="lblError" runat="server" Text="" ForeColor="Red" Font-Bold="true"></asp:Label>
             </p>
             <p>
                 <asp:Button ID="btnLogin" runat="server" Text="Dang nhap" OnClick="btnLogin_Click" />

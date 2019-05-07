@@ -27,7 +27,9 @@
                 <br />
                 <asp:RangeValidator ID="RangeValidator1"
                     runat="server"
-                    ErrorMessage="RangeValidator" ControlToValidate="txbDiem" MaximumValue="10" MinimumValue="0" Type="Integer">Khoang diem khong dung (0-10)</asp:RangeValidator>
+                    ErrorMessage="RangeValidator" ControlToValidate="txbDiem" 
+                    MaximumValue="10" MinimumValue="0" Type="Integer">Khoang diem khong dung (0-10)
+                </asp:RangeValidator>
             </p>
             <p>
                 ngay sinh(*):

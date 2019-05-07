@@ -27,7 +27,7 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2"
                     runat="server"
                     ErrorMessage="RequiredFieldValidator"
-                    ControlToValidate="txbPass1">khong duoc de trong truong nay
+                    ControlToValidate="txbPass1">khong duoc de trkong truong nay
                 </asp:RequiredFieldValidator>
                 <br />
                 nhap lai mat khau:
@@ -66,7 +66,8 @@
                 <br />
                 <asp:CompareValidator ID="CompareValidator2"
                     runat="server"
-                    ErrorMessage="CompareValidator" Type="Date" Text="(*)" ControlToValidate="txbNgay"></asp:CompareValidator>
+                    ErrorMessage="CompareValidator" 
+                    Type="Date" Text="(*)" ControlToValidate="txbNgay"></asp:CompareValidator>
                 <br />
                 gioi tinh:
                 <asp:RadioButton ID="rbNam" runat="server" Text="Nam" Checked="true" />
